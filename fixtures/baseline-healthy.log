@@ -1,0 +1,365 @@
+# SYNTHETIC FIXTURE — not a real node log. See fixtures/README.md.
+# fixture: baseline-healthy
+# pinned postfiatd commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+2026-11-19T23:59:55.000Z [RCLConsensus] Consensus engine started (cookie: 987654321)
+2026-11-19T23:59:55.000Z [RCLConsensus] Validator identity: n9SyntheticValidatorIdentity0000000000000000000
+2026-11-20T00:00:00.000Z [RCLConsensus] CNF buildLCL 2cf6b7da0316eae004237d8ecb9a67b5b101b5ba9817d66b6b377c560a51fd79
+2026-11-20T00:00:00.000Z [RCLConsensus] CNF Val 2cf6b7da0316eae004237d8ecb9a67b5b101b5ba9817d66b6b377c560a51fd79
+2026-11-20T00:00:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:04.000Z [RCLConsensus] CNF buildLCL 0d50e9a2e1e8d64e2e15b2e6f5a1d5424aedff000c2c9fa4727bf86851b4e977
+2026-11-20T00:00:04.000Z [RCLConsensus] CNF Val 0d50e9a2e1e8d64e2e15b2e6f5a1d5424aedff000c2c9fa4727bf86851b4e977
+2026-11-20T00:00:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:08.000Z [RCLConsensus] CNF buildLCL 6e3eb442504bec21a090ffb51c5eb163b543093c37eb81fd2ad0e14aee805fec
+2026-11-20T00:00:08.000Z [RCLConsensus] CNF Val 6e3eb442504bec21a090ffb51c5eb163b543093c37eb81fd2ad0e14aee805fec
+2026-11-20T00:00:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:12.000Z [RCLConsensus] CNF buildLCL 9a238f3c48fa2b2ac47ccb60ee97369c4f92284bfae94487f45efb13087a76a4
+2026-11-20T00:00:12.000Z [RCLConsensus] CNF Val 9a238f3c48fa2b2ac47ccb60ee97369c4f92284bfae94487f45efb13087a76a4
+2026-11-20T00:00:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:16.000Z [RCLConsensus] CNF buildLCL 59b26f37af32ffc2d885230ffe4aa15e3fc71588e793898c66ed6f22524bc91a
+2026-11-20T00:00:16.000Z [RCLConsensus] CNF Val 59b26f37af32ffc2d885230ffe4aa15e3fc71588e793898c66ed6f22524bc91a
+2026-11-20T00:00:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:20.000Z [RCLConsensus] CNF buildLCL 0dd84a88b895c1c51113e366e6bfd56990a8f40f4a77c23e9641896d560e0301
+2026-11-20T00:00:20.000Z [RCLConsensus] CNF Val 0dd84a88b895c1c51113e366e6bfd56990a8f40f4a77c23e9641896d560e0301
+2026-11-20T00:00:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:24.000Z [RCLConsensus] CNF buildLCL 42321a3904bc0bd3bb4ac4b5f28bafebad1cc27a78bfd48bb8b81bed2e826937
+2026-11-20T00:00:24.000Z [RCLConsensus] CNF Val 42321a3904bc0bd3bb4ac4b5f28bafebad1cc27a78bfd48bb8b81bed2e826937
+2026-11-20T00:00:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:28.000Z [RCLConsensus] CNF buildLCL 00a0f1634e96ce4a1113f85b8512ca377972a62d86a24a95a303c69ee48e3521
+2026-11-20T00:00:28.000Z [RCLConsensus] CNF Val 00a0f1634e96ce4a1113f85b8512ca377972a62d86a24a95a303c69ee48e3521
+2026-11-20T00:00:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:32.000Z [RCLConsensus] CNF buildLCL 78ae1dc63c0b3915e838369827b246169054eb020996f3f06f71514745f965ed
+2026-11-20T00:00:32.000Z [RCLConsensus] CNF Val 78ae1dc63c0b3915e838369827b246169054eb020996f3f06f71514745f965ed
+2026-11-20T00:00:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:36.000Z [RCLConsensus] CNF buildLCL a7e43e322e97aa32f7086a54967ce7281c017382048178635085e2f59a6ae31e
+2026-11-20T00:00:36.000Z [RCLConsensus] CNF Val a7e43e322e97aa32f7086a54967ce7281c017382048178635085e2f59a6ae31e
+2026-11-20T00:00:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:40.000Z [RCLConsensus] CNF buildLCL 64c0cdae886fc363d26d7fc4ea4f146ee398d88f375cc6bea003c6a5e4498f74
+2026-11-20T00:00:40.000Z [RCLConsensus] CNF Val 64c0cdae886fc363d26d7fc4ea4f146ee398d88f375cc6bea003c6a5e4498f74
+2026-11-20T00:00:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:44.000Z [RCLConsensus] CNF buildLCL eae434f81e602f0f6860ac184e1341917c70a4b04d1d086badd9cd49cc3ed1f3
+2026-11-20T00:00:44.000Z [RCLConsensus] CNF Val eae434f81e602f0f6860ac184e1341917c70a4b04d1d086badd9cd49cc3ed1f3
+2026-11-20T00:00:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:48.000Z [RCLConsensus] CNF buildLCL 701f71e285ba9e272bad5cf8502f6fb0621d0aee95302ba05b2b68c12bbf6c2f
+2026-11-20T00:00:48.000Z [RCLConsensus] CNF Val 701f71e285ba9e272bad5cf8502f6fb0621d0aee95302ba05b2b68c12bbf6c2f
+2026-11-20T00:00:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:52.000Z [RCLConsensus] CNF buildLCL b5f40433c62e16f67ce9d024c2e732222c90542dd70b394b6f0acd6f1456fb00
+2026-11-20T00:00:52.000Z [RCLConsensus] CNF Val b5f40433c62e16f67ce9d024c2e732222c90542dd70b394b6f0acd6f1456fb00
+2026-11-20T00:00:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:00:56.000Z [RCLConsensus] CNF buildLCL f8b27db6a72bd1d421f3ceeec5e168793b872071c5f961a3e537e7ef91f07352
+2026-11-20T00:00:56.000Z [RCLConsensus] CNF Val f8b27db6a72bd1d421f3ceeec5e168793b872071c5f961a3e537e7ef91f07352
+2026-11-20T00:00:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:00.000Z [RCLConsensus] CNF buildLCL 54e6edc31fa65eea388a1b0d4170a9e3b21cb102534c3d24544300786ce066b8
+2026-11-20T00:01:00.000Z [RCLConsensus] CNF Val 54e6edc31fa65eea388a1b0d4170a9e3b21cb102534c3d24544300786ce066b8
+2026-11-20T00:01:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:04.000Z [RCLConsensus] CNF buildLCL 39583b05250ecdedef7ff9685c86eaf3572409d8769f586cad8d486fe1c3cf80
+2026-11-20T00:01:04.000Z [RCLConsensus] CNF Val 39583b05250ecdedef7ff9685c86eaf3572409d8769f586cad8d486fe1c3cf80
+2026-11-20T00:01:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:08.000Z [RCLConsensus] CNF buildLCL f555315fd0ee09c801da0ebc9486956950b51b3ad66ffaed80842e22ac0f93dd
+2026-11-20T00:01:08.000Z [RCLConsensus] CNF Val f555315fd0ee09c801da0ebc9486956950b51b3ad66ffaed80842e22ac0f93dd
+2026-11-20T00:01:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:12.000Z [RCLConsensus] CNF buildLCL c206bdd0596d58165b7e15a480a5c9b2aae5105463fcba0f88a30167801a0435
+2026-11-20T00:01:12.000Z [RCLConsensus] CNF Val c206bdd0596d58165b7e15a480a5c9b2aae5105463fcba0f88a30167801a0435
+2026-11-20T00:01:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:16.000Z [RCLConsensus] CNF buildLCL c08d22e615f74c2efdcbc2f7802f26cf3abca26e2e6975e59ae6211d59533e0b
+2026-11-20T00:01:16.000Z [RCLConsensus] CNF Val c08d22e615f74c2efdcbc2f7802f26cf3abca26e2e6975e59ae6211d59533e0b
+2026-11-20T00:01:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:20.000Z [RCLConsensus] CNF buildLCL 244372d4c519035ce09c335a67315f471fee665d98365a35889b0dd78f4a5a21
+2026-11-20T00:01:20.000Z [RCLConsensus] CNF Val 244372d4c519035ce09c335a67315f471fee665d98365a35889b0dd78f4a5a21
+2026-11-20T00:01:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:24.000Z [RCLConsensus] CNF buildLCL 7c74bcb2a4349b366646f0307826b51cb398450b6680db6d9e9e50d1f185ef8c
+2026-11-20T00:01:24.000Z [RCLConsensus] CNF Val 7c74bcb2a4349b366646f0307826b51cb398450b6680db6d9e9e50d1f185ef8c
+2026-11-20T00:01:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:28.000Z [RCLConsensus] CNF buildLCL 7286ab433d66c76eb9711853ebf633a9168623e03ea468b331f06dd85aef42e0
+2026-11-20T00:01:28.000Z [RCLConsensus] CNF Val 7286ab433d66c76eb9711853ebf633a9168623e03ea468b331f06dd85aef42e0
+2026-11-20T00:01:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:32.000Z [RCLConsensus] CNF buildLCL 058ce0094a25b889d094e465773ff6e466486ce0d2bdbef8b51cb5dfdb1b701f
+2026-11-20T00:01:32.000Z [RCLConsensus] CNF Val 058ce0094a25b889d094e465773ff6e466486ce0d2bdbef8b51cb5dfdb1b701f
+2026-11-20T00:01:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:36.000Z [RCLConsensus] CNF buildLCL b69fa1ac5363a010a48b5de67ac5db7dfdfe0c8a3e1029c03a9d89928b1cc216
+2026-11-20T00:01:36.000Z [RCLConsensus] CNF Val b69fa1ac5363a010a48b5de67ac5db7dfdfe0c8a3e1029c03a9d89928b1cc216
+2026-11-20T00:01:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:40.000Z [RCLConsensus] CNF buildLCL 24d5beafbc1788a90edab66431ba93a42f9e910f974f99638ba65a29bbf08426
+2026-11-20T00:01:40.000Z [RCLConsensus] CNF Val 24d5beafbc1788a90edab66431ba93a42f9e910f974f99638ba65a29bbf08426
+2026-11-20T00:01:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:44.000Z [RCLConsensus] CNF buildLCL 502166b3c7b3f336490fe4d137cf5fcdd0473e1973b3691547f47a367d7ea278
+2026-11-20T00:01:44.000Z [RCLConsensus] CNF Val 502166b3c7b3f336490fe4d137cf5fcdd0473e1973b3691547f47a367d7ea278
+2026-11-20T00:01:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:48.000Z [RCLConsensus] CNF buildLCL 26c0b1308f3e83ed01b9f8210b994c084dfbd372ba4dc8ff1d4a88cdd059d72f
+2026-11-20T00:01:48.000Z [RCLConsensus] CNF Val 26c0b1308f3e83ed01b9f8210b994c084dfbd372ba4dc8ff1d4a88cdd059d72f
+2026-11-20T00:01:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:52.000Z [RCLConsensus] CNF buildLCL 0ddcb2f786447f96310471e8bd4a46e45dc975968f8f4fde0594fd6a733cc521
+2026-11-20T00:01:52.000Z [RCLConsensus] CNF Val 0ddcb2f786447f96310471e8bd4a46e45dc975968f8f4fde0594fd6a733cc521
+2026-11-20T00:01:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:01:56.000Z [RCLConsensus] CNF buildLCL 3a22806f91d2a59bc4c9775bc99bd314b23436fc3670207af0ecf0d20cff1424
+2026-11-20T00:01:56.000Z [RCLConsensus] CNF Val 3a22806f91d2a59bc4c9775bc99bd314b23436fc3670207af0ecf0d20cff1424
+2026-11-20T00:01:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:00.000Z [RCLConsensus] CNF buildLCL ce7c9d02bfbc9712baa9604ed90f119e5d71edee3f6602032633d0c0bfbab26d
+2026-11-20T00:02:00.000Z [RCLConsensus] CNF Val ce7c9d02bfbc9712baa9604ed90f119e5d71edee3f6602032633d0c0bfbab26d
+2026-11-20T00:02:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:04.000Z [RCLConsensus] CNF buildLCL d5529a865da968acd861e5a8f135f0c86da0b5da0ee8403158d12976b6a494ce
+2026-11-20T00:02:04.000Z [RCLConsensus] CNF Val d5529a865da968acd861e5a8f135f0c86da0b5da0ee8403158d12976b6a494ce
+2026-11-20T00:02:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:08.000Z [RCLConsensus] CNF buildLCL e4f8d186ffd7dc0c8a1a10b1041665571e0f5e89130e77d35da271293b0fb0e7
+2026-11-20T00:02:08.000Z [RCLConsensus] CNF Val e4f8d186ffd7dc0c8a1a10b1041665571e0f5e89130e77d35da271293b0fb0e7
+2026-11-20T00:02:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:12.000Z [RCLConsensus] CNF buildLCL 9b86c117ac6028c3c5dfb48f704737bd23765dcd3b7fc7bcbb5bda987bb80977
+2026-11-20T00:02:12.000Z [RCLConsensus] CNF Val 9b86c117ac6028c3c5dfb48f704737bd23765dcd3b7fc7bcbb5bda987bb80977
+2026-11-20T00:02:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:16.000Z [RCLConsensus] CNF buildLCL acdf602e0bf37b91f9829b443c51eff8f9de4982a34908c28ea353ce46f2890b
+2026-11-20T00:02:16.000Z [RCLConsensus] CNF Val acdf602e0bf37b91f9829b443c51eff8f9de4982a34908c28ea353ce46f2890b
+2026-11-20T00:02:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:20.000Z [RCLConsensus] CNF buildLCL 380c879ffcf326f96d9e3796664ab8eef848a8cd3f3e001a20612260eb9fec51
+2026-11-20T00:02:20.000Z [RCLConsensus] CNF Val 380c879ffcf326f96d9e3796664ab8eef848a8cd3f3e001a20612260eb9fec51
+2026-11-20T00:02:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:24.000Z [RCLConsensus] CNF buildLCL d927973860002e1ab645a39b9a0f57deef8d9166647fef73f429f4c5af6ac0ff
+2026-11-20T00:02:24.000Z [RCLConsensus] CNF Val d927973860002e1ab645a39b9a0f57deef8d9166647fef73f429f4c5af6ac0ff
+2026-11-20T00:02:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:28.000Z [RCLConsensus] CNF buildLCL dcd61831806ebe05593f281db85f03ca174a52a2d5ab833e92b20be77ab9ea0b
+2026-11-20T00:02:28.000Z [RCLConsensus] CNF Val dcd61831806ebe05593f281db85f03ca174a52a2d5ab833e92b20be77ab9ea0b
+2026-11-20T00:02:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:32.000Z [RCLConsensus] CNF buildLCL 1aece35103dc0c39ccdb18567571ae7bf0bbcc404b55f0a7ebc5c39ca0d90281
+2026-11-20T00:02:32.000Z [RCLConsensus] CNF Val 1aece35103dc0c39ccdb18567571ae7bf0bbcc404b55f0a7ebc5c39ca0d90281
+2026-11-20T00:02:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:36.000Z [RCLConsensus] CNF buildLCL e312a6f53f3c5a2a645da043bef2f800e5eff5426c93b705610e0a38c8c3c388
+2026-11-20T00:02:36.000Z [RCLConsensus] CNF Val e312a6f53f3c5a2a645da043bef2f800e5eff5426c93b705610e0a38c8c3c388
+2026-11-20T00:02:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:40.000Z [RCLConsensus] CNF buildLCL 5dc402ad790b2e08d7bdfe30682fe91de995d9e3dad0b1b0efad0c36e8d0de2e
+2026-11-20T00:02:40.000Z [RCLConsensus] CNF Val 5dc402ad790b2e08d7bdfe30682fe91de995d9e3dad0b1b0efad0c36e8d0de2e
+2026-11-20T00:02:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:44.000Z [RCLConsensus] CNF buildLCL cd62669e7d8c504948e66c82c2e70f7db6627b78a5e7fc7420afea474ecd14cf
+2026-11-20T00:02:44.000Z [RCLConsensus] CNF Val cd62669e7d8c504948e66c82c2e70f7db6627b78a5e7fc7420afea474ecd14cf
+2026-11-20T00:02:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:48.000Z [RCLConsensus] CNF buildLCL f06ed4483ea5309fa99d2b4f3d6caddad6fefeeddd3f753365907d4a7efaff7d
+2026-11-20T00:02:48.000Z [RCLConsensus] CNF Val f06ed4483ea5309fa99d2b4f3d6caddad6fefeeddd3f753365907d4a7efaff7d
+2026-11-20T00:02:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:52.000Z [RCLConsensus] CNF buildLCL e2b41cb310518e28f6e771d536bade757daa810206653fde062ac94c79e9cc3d
+2026-11-20T00:02:52.000Z [RCLConsensus] CNF Val e2b41cb310518e28f6e771d536bade757daa810206653fde062ac94c79e9cc3d
+2026-11-20T00:02:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:02:56.000Z [RCLConsensus] CNF buildLCL 990fe7aa2c2ef97f6e7478234cb5a9adaa171e786453e95ba576885cef36c962
+2026-11-20T00:02:56.000Z [RCLConsensus] CNF Val 990fe7aa2c2ef97f6e7478234cb5a9adaa171e786453e95ba576885cef36c962
+2026-11-20T00:02:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:00.000Z [RCLConsensus] CNF buildLCL 520c7aaaae31df54c1f6ab09422f064ff1e23ce52fc79f915bf18f470c3403b8
+2026-11-20T00:03:00.000Z [RCLConsensus] CNF Val 520c7aaaae31df54c1f6ab09422f064ff1e23ce52fc79f915bf18f470c3403b8
+2026-11-20T00:03:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:04.000Z [RCLConsensus] CNF buildLCL 93bf56e812bb90f770b8719fca14861f9fd1fe06f36b78c3b52c0e6853d18a2c
+2026-11-20T00:03:04.000Z [RCLConsensus] CNF Val 93bf56e812bb90f770b8719fca14861f9fd1fe06f36b78c3b52c0e6853d18a2c
+2026-11-20T00:03:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:08.000Z [RCLConsensus] CNF buildLCL c5ae819e5aceb630d0a51c5f62b352fcb3c21fdf36b26623663086b7d13fd858
+2026-11-20T00:03:08.000Z [RCLConsensus] CNF Val c5ae819e5aceb630d0a51c5f62b352fcb3c21fdf36b26623663086b7d13fd858
+2026-11-20T00:03:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:12.000Z [RCLConsensus] CNF buildLCL 5b1bb94eca8207cb2eb611a41ce05bc8971d13c56f025eec3a407b4f3261d8fa
+2026-11-20T00:03:12.000Z [RCLConsensus] CNF Val 5b1bb94eca8207cb2eb611a41ce05bc8971d13c56f025eec3a407b4f3261d8fa
+2026-11-20T00:03:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:16.000Z [RCLConsensus] CNF buildLCL f4aa8a334e29b7b39eb9ae0bed2b9473e1ac66e93ce8d58b6368cf1118bd9705
+2026-11-20T00:03:16.000Z [RCLConsensus] CNF Val f4aa8a334e29b7b39eb9ae0bed2b9473e1ac66e93ce8d58b6368cf1118bd9705
+2026-11-20T00:03:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:20.000Z [RCLConsensus] CNF buildLCL 140bbad1fb39504c3c738840e318903f509ee38d11253db196ec153387b16c08
+2026-11-20T00:03:20.000Z [RCLConsensus] CNF Val 140bbad1fb39504c3c738840e318903f509ee38d11253db196ec153387b16c08
+2026-11-20T00:03:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:24.000Z [RCLConsensus] CNF buildLCL 1aef07134b222362e29a95efb56e8144047c98492413b6ea73e45ce6c4a31d68
+2026-11-20T00:03:24.000Z [RCLConsensus] CNF Val 1aef07134b222362e29a95efb56e8144047c98492413b6ea73e45ce6c4a31d68
+2026-11-20T00:03:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:28.000Z [RCLConsensus] CNF buildLCL 18d497e83f41be6ec555baf94dd5a3cca71f2a9089158eb77d06636339149330
+2026-11-20T00:03:28.000Z [RCLConsensus] CNF Val 18d497e83f41be6ec555baf94dd5a3cca71f2a9089158eb77d06636339149330
+2026-11-20T00:03:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:32.000Z [RCLConsensus] CNF buildLCL 2d7f754e05a81de6cae34b99ba25831962c0e2961d86d5448ad94050c7eaa2e3
+2026-11-20T00:03:32.000Z [RCLConsensus] CNF Val 2d7f754e05a81de6cae34b99ba25831962c0e2961d86d5448ad94050c7eaa2e3
+2026-11-20T00:03:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:36.000Z [RCLConsensus] CNF buildLCL 9b6049847b2b2315e679ea52767d9f119f53b56d53a57379b025890458153b31
+2026-11-20T00:03:36.000Z [RCLConsensus] CNF Val 9b6049847b2b2315e679ea52767d9f119f53b56d53a57379b025890458153b31
+2026-11-20T00:03:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:40.000Z [RCLConsensus] CNF buildLCL 57c8c84cf5d2543b929b0384fadbcd27becee84f281ff69499b3390988972c74
+2026-11-20T00:03:40.000Z [RCLConsensus] CNF Val 57c8c84cf5d2543b929b0384fadbcd27becee84f281ff69499b3390988972c74
+2026-11-20T00:03:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:44.000Z [RCLConsensus] CNF buildLCL 00cf24d66e8213a1dd411ec8f21416431c96f288d786f6fa0234b9c2da1c5bfb
+2026-11-20T00:03:44.000Z [RCLConsensus] CNF Val 00cf24d66e8213a1dd411ec8f21416431c96f288d786f6fa0234b9c2da1c5bfb
+2026-11-20T00:03:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:48.000Z [RCLConsensus] CNF buildLCL abc3a70b43a1c560f6bb60bf5ef1f95c749986ab035fff1396d9e08e4222fdbd
+2026-11-20T00:03:48.000Z [RCLConsensus] CNF Val abc3a70b43a1c560f6bb60bf5ef1f95c749986ab035fff1396d9e08e4222fdbd
+2026-11-20T00:03:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:52.000Z [RCLConsensus] CNF buildLCL 9343ddba40f64200551ae0c57d742191b5b4a0982c28306252da82c8fb66c727
+2026-11-20T00:03:52.000Z [RCLConsensus] CNF Val 9343ddba40f64200551ae0c57d742191b5b4a0982c28306252da82c8fb66c727
+2026-11-20T00:03:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:03:56.000Z [RCLConsensus] CNF buildLCL 0fdf142c7d904fbb3b5ad50835d6f569e03ef247ddb539d30e23db44aa1fbe09
+2026-11-20T00:03:56.000Z [RCLConsensus] CNF Val 0fdf142c7d904fbb3b5ad50835d6f569e03ef247ddb539d30e23db44aa1fbe09
+2026-11-20T00:03:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:00.000Z [RCLConsensus] CNF buildLCL 32c46c043a9b2d5000c980192f985594b2c55c558b8e67bdfdbe9f74a4033915
+2026-11-20T00:04:00.000Z [RCLConsensus] CNF Val 32c46c043a9b2d5000c980192f985594b2c55c558b8e67bdfdbe9f74a4033915
+2026-11-20T00:04:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:04.000Z [RCLConsensus] CNF buildLCL f757673b772865b582cd367e376c95070130753f4388a35a0792e6c4f8350761
+2026-11-20T00:04:04.000Z [RCLConsensus] CNF Val f757673b772865b582cd367e376c95070130753f4388a35a0792e6c4f8350761
+2026-11-20T00:04:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:08.000Z [RCLConsensus] CNF buildLCL 78484103b32b0c50103879d1b1f0b6022a9770b412210dd7eac4f8e29db580d0
+2026-11-20T00:04:08.000Z [RCLConsensus] CNF Val 78484103b32b0c50103879d1b1f0b6022a9770b412210dd7eac4f8e29db580d0
+2026-11-20T00:04:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:12.000Z [RCLConsensus] CNF buildLCL bcacf920dea72ec234f8f0d07432016ff1ee20d4d768eb66fb6e00c19cf3cbd4
+2026-11-20T00:04:12.000Z [RCLConsensus] CNF Val bcacf920dea72ec234f8f0d07432016ff1ee20d4d768eb66fb6e00c19cf3cbd4
+2026-11-20T00:04:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:16.000Z [RCLConsensus] CNF buildLCL a7b9ca317f86ffdac61245b8f3be89e8e93f37e51bb02ee70a3132a17229e38c
+2026-11-20T00:04:16.000Z [RCLConsensus] CNF Val a7b9ca317f86ffdac61245b8f3be89e8e93f37e51bb02ee70a3132a17229e38c
+2026-11-20T00:04:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:20.000Z [RCLConsensus] CNF buildLCL 391a53bedb287b59808e3177d8c820936d20d4da76e98545ef9c205d5e48369e
+2026-11-20T00:04:20.000Z [RCLConsensus] CNF Val 391a53bedb287b59808e3177d8c820936d20d4da76e98545ef9c205d5e48369e
+2026-11-20T00:04:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:24.000Z [RCLConsensus] CNF buildLCL a37828460963e07ede31f9def8eede05560c7b04ed0f33f51fcd2331950ee1b1
+2026-11-20T00:04:24.000Z [RCLConsensus] CNF Val a37828460963e07ede31f9def8eede05560c7b04ed0f33f51fcd2331950ee1b1
+2026-11-20T00:04:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:28.000Z [RCLConsensus] CNF buildLCL 5ca01fe9da21219ee1c39ccc50b1af362a28f87b349a07757d48c9e1ae3ac139
+2026-11-20T00:04:28.000Z [RCLConsensus] CNF Val 5ca01fe9da21219ee1c39ccc50b1af362a28f87b349a07757d48c9e1ae3ac139
+2026-11-20T00:04:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:32.000Z [RCLConsensus] CNF buildLCL 0d9da3a255e1b8cb16f37017c2d43abac6450068493a1cb863a0606d7b0b865a
+2026-11-20T00:04:32.000Z [RCLConsensus] CNF Val 0d9da3a255e1b8cb16f37017c2d43abac6450068493a1cb863a0606d7b0b865a
+2026-11-20T00:04:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:36.000Z [RCLConsensus] CNF buildLCL 0c18bc536661274a594464d3ab0e0b3607a637a157de850d486721109ad9e980
+2026-11-20T00:04:36.000Z [RCLConsensus] CNF Val 0c18bc536661274a594464d3ab0e0b3607a637a157de850d486721109ad9e980
+2026-11-20T00:04:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:40.000Z [RCLConsensus] CNF buildLCL 44cf3bba92019ee43b13e6ad492d6ba334d828c37179e733d8c56565f22091f4
+2026-11-20T00:04:40.000Z [RCLConsensus] CNF Val 44cf3bba92019ee43b13e6ad492d6ba334d828c37179e733d8c56565f22091f4
+2026-11-20T00:04:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:44.000Z [RCLConsensus] CNF buildLCL 6d91cbe095626e616e82efd6053a7a5fdc1d2fa499d74035a9879964079ef997
+2026-11-20T00:04:44.000Z [RCLConsensus] CNF Val 6d91cbe095626e616e82efd6053a7a5fdc1d2fa499d74035a9879964079ef997
+2026-11-20T00:04:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:48.000Z [RCLConsensus] CNF buildLCL 9146ed3939c6d69e5ce4c41dbf742da3b36ca4b332438264587f569789d69018
+2026-11-20T00:04:48.000Z [RCLConsensus] CNF Val 9146ed3939c6d69e5ce4c41dbf742da3b36ca4b332438264587f569789d69018
+2026-11-20T00:04:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:52.000Z [RCLConsensus] CNF buildLCL 239fa836d8a7fe96c99294d4c5ac8a4f7a484b4fc13138771d32b402a1bac3dd
+2026-11-20T00:04:52.000Z [RCLConsensus] CNF Val 239fa836d8a7fe96c99294d4c5ac8a4f7a484b4fc13138771d32b402a1bac3dd
+2026-11-20T00:04:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:04:56.000Z [RCLConsensus] CNF buildLCL 9e0ced6e023dfc43e8cebb5d047d74adc7a994a081a58c8b9057818d91db85a6
+2026-11-20T00:04:56.000Z [RCLConsensus] CNF Val 9e0ced6e023dfc43e8cebb5d047d74adc7a994a081a58c8b9057818d91db85a6
+2026-11-20T00:04:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:00.000Z [RCLConsensus] CNF buildLCL f60de71717b3681dedc1e975527e157d0863cb9c81785362bd1d08c92aaf5f0b
+2026-11-20T00:05:00.000Z [RCLConsensus] CNF Val f60de71717b3681dedc1e975527e157d0863cb9c81785362bd1d08c92aaf5f0b
+2026-11-20T00:05:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:04.000Z [RCLConsensus] CNF buildLCL d083ba1ac321fa7ac1202cc46c17f4251e120eec3df2278068638349eb92b8c1
+2026-11-20T00:05:04.000Z [RCLConsensus] CNF Val d083ba1ac321fa7ac1202cc46c17f4251e120eec3df2278068638349eb92b8c1
+2026-11-20T00:05:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:08.000Z [RCLConsensus] CNF buildLCL 5bced56ce1d1ee941ade95e2d70335382c5a59e31ac8674fe2e1567e167e2f24
+2026-11-20T00:05:08.000Z [RCLConsensus] CNF Val 5bced56ce1d1ee941ade95e2d70335382c5a59e31ac8674fe2e1567e167e2f24
+2026-11-20T00:05:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:12.000Z [RCLConsensus] CNF buildLCL df4adec2747f169f7065c62cab93af73bed91d42236954a87ed678ff7f1bb7d2
+2026-11-20T00:05:12.000Z [RCLConsensus] CNF Val df4adec2747f169f7065c62cab93af73bed91d42236954a87ed678ff7f1bb7d2
+2026-11-20T00:05:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:16.000Z [RCLConsensus] CNF buildLCL f1cd1e75a6321968aa1f03f00e065a5d9af2567f5977597848974ee42d6ce578
+2026-11-20T00:05:16.000Z [RCLConsensus] CNF Val f1cd1e75a6321968aa1f03f00e065a5d9af2567f5977597848974ee42d6ce578
+2026-11-20T00:05:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:20.000Z [RCLConsensus] CNF buildLCL 52466481e7d2d7792851f6745f6be1546fc0d897b3af0584602c00b782e49aa6
+2026-11-20T00:05:20.000Z [RCLConsensus] CNF Val 52466481e7d2d7792851f6745f6be1546fc0d897b3af0584602c00b782e49aa6
+2026-11-20T00:05:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:24.000Z [RCLConsensus] CNF buildLCL 73514d546dd15e9d8ab56fb4576918dbb5aa9e95b410a20f5a4751180df9ad6d
+2026-11-20T00:05:24.000Z [RCLConsensus] CNF Val 73514d546dd15e9d8ab56fb4576918dbb5aa9e95b410a20f5a4751180df9ad6d
+2026-11-20T00:05:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:28.000Z [RCLConsensus] CNF buildLCL 65b0bfb167890d576936a463b47f33325eb6e8602ff7858fb07948664e1fb00c
+2026-11-20T00:05:28.000Z [RCLConsensus] CNF Val 65b0bfb167890d576936a463b47f33325eb6e8602ff7858fb07948664e1fb00c
+2026-11-20T00:05:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:32.000Z [RCLConsensus] CNF buildLCL 895d43ba46d2c2904e4e554dd96bc5721cf31d1b4e3a8df25cd3f3ba3b09a895
+2026-11-20T00:05:32.000Z [RCLConsensus] CNF Val 895d43ba46d2c2904e4e554dd96bc5721cf31d1b4e3a8df25cd3f3ba3b09a895
+2026-11-20T00:05:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:36.000Z [RCLConsensus] CNF buildLCL f94d41d54d95af354ba4553b25eb9e8670e45c41e65417e65f7fc48ffa0b7201
+2026-11-20T00:05:36.000Z [RCLConsensus] CNF Val f94d41d54d95af354ba4553b25eb9e8670e45c41e65417e65f7fc48ffa0b7201
+2026-11-20T00:05:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:40.000Z [RCLConsensus] CNF buildLCL da16d889a1ff2b9a063f9799f6602905093539bcd74067d1595a1e93b8429ebb
+2026-11-20T00:05:40.000Z [RCLConsensus] CNF Val da16d889a1ff2b9a063f9799f6602905093539bcd74067d1595a1e93b8429ebb
+2026-11-20T00:05:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:44.000Z [RCLConsensus] CNF buildLCL 40c99c05b4df2229ab3ddaa3f10aa90c61dbf5630af7f117aa5863c8fb9648e2
+2026-11-20T00:05:44.000Z [RCLConsensus] CNF Val 40c99c05b4df2229ab3ddaa3f10aa90c61dbf5630af7f117aa5863c8fb9648e2
+2026-11-20T00:05:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:48.000Z [RCLConsensus] CNF buildLCL 60d7ed5cb69e65149b4bdf57f8483831c651016301eb8d32f1806a4d06b7b9fc
+2026-11-20T00:05:48.000Z [RCLConsensus] CNF Val 60d7ed5cb69e65149b4bdf57f8483831c651016301eb8d32f1806a4d06b7b9fc
+2026-11-20T00:05:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:52.000Z [RCLConsensus] CNF buildLCL 1c4bd9bad6b4e6c17bf8f52807527b0200075793cd043d81c32457b152210dae
+2026-11-20T00:05:52.000Z [RCLConsensus] CNF Val 1c4bd9bad6b4e6c17bf8f52807527b0200075793cd043d81c32457b152210dae
+2026-11-20T00:05:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:05:56.000Z [RCLConsensus] CNF buildLCL 775a7ffef71992f73a09af2b60aea379497f5a924158390a8b740e96451c1461
+2026-11-20T00:05:56.000Z [RCLConsensus] CNF Val 775a7ffef71992f73a09af2b60aea379497f5a924158390a8b740e96451c1461
+2026-11-20T00:05:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:00.000Z [RCLConsensus] CNF buildLCL ff5404df589faddedb697f80c3b7b6d3458e3a2bba014bd2db162b6274a259cc
+2026-11-20T00:06:00.000Z [RCLConsensus] CNF Val ff5404df589faddedb697f80c3b7b6d3458e3a2bba014bd2db162b6274a259cc
+2026-11-20T00:06:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:04.000Z [RCLConsensus] CNF buildLCL 716e78e0aca9bf17ff816f2298ebf2bd50be5eabfcef2860051f52a0d2c9c75b
+2026-11-20T00:06:04.000Z [RCLConsensus] CNF Val 716e78e0aca9bf17ff816f2298ebf2bd50be5eabfcef2860051f52a0d2c9c75b
+2026-11-20T00:06:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:08.000Z [RCLConsensus] CNF buildLCL 8a48d6dfe2a5d65066a6658ffc5048a0aacea3889b5888e511b00d74bac469d2
+2026-11-20T00:06:08.000Z [RCLConsensus] CNF Val 8a48d6dfe2a5d65066a6658ffc5048a0aacea3889b5888e511b00d74bac469d2
+2026-11-20T00:06:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:12.000Z [RCLConsensus] CNF buildLCL ae4e673be5575cbf29efd45c89e7aa58c63ce14b81b008d335ab53ad31fb1ef0
+2026-11-20T00:06:12.000Z [RCLConsensus] CNF Val ae4e673be5575cbf29efd45c89e7aa58c63ce14b81b008d335ab53ad31fb1ef0
+2026-11-20T00:06:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:16.000Z [RCLConsensus] CNF buildLCL 860b7840aeeb3e487127573032594d8aafa3c719fa36a97a27360cf809c60f0a
+2026-11-20T00:06:16.000Z [RCLConsensus] CNF Val 860b7840aeeb3e487127573032594d8aafa3c719fa36a97a27360cf809c60f0a
+2026-11-20T00:06:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:20.000Z [RCLConsensus] CNF buildLCL 57fce39a56ff83ec76b13c3d42dd19f44e5215e7edb7ac007eb47256e9c5e507
+2026-11-20T00:06:20.000Z [RCLConsensus] CNF Val 57fce39a56ff83ec76b13c3d42dd19f44e5215e7edb7ac007eb47256e9c5e507
+2026-11-20T00:06:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:24.000Z [RCLConsensus] CNF buildLCL 0561f856deff41734d30404550d146902b36aac004c3d8880c7a71ff01b8ea15
+2026-11-20T00:06:24.000Z [RCLConsensus] CNF Val 0561f856deff41734d30404550d146902b36aac004c3d8880c7a71ff01b8ea15
+2026-11-20T00:06:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:28.000Z [RCLConsensus] CNF buildLCL cf8c1899a492c2a2311435f038c4cccd87835518323edf63406f5d19839879b0
+2026-11-20T00:06:28.000Z [RCLConsensus] CNF Val cf8c1899a492c2a2311435f038c4cccd87835518323edf63406f5d19839879b0
+2026-11-20T00:06:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:32.000Z [RCLConsensus] CNF buildLCL fc22d8237a894f1f136ee69b2f4a981fe63c92ae402752b31cae0fb33256f6f4
+2026-11-20T00:06:32.000Z [RCLConsensus] CNF Val fc22d8237a894f1f136ee69b2f4a981fe63c92ae402752b31cae0fb33256f6f4
+2026-11-20T00:06:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:36.000Z [RCLConsensus] CNF buildLCL d75f7fa50c45a2ce1c01a60eabed79b565bd5e9ac3e87ff1356a280a1b755785
+2026-11-20T00:06:36.000Z [RCLConsensus] CNF Val d75f7fa50c45a2ce1c01a60eabed79b565bd5e9ac3e87ff1356a280a1b755785
+2026-11-20T00:06:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:40.000Z [RCLConsensus] CNF buildLCL 58fff597fc401cfe62d029395c8a6c215f29d992c5a056abc81586b79267a68f
+2026-11-20T00:06:40.000Z [RCLConsensus] CNF Val 58fff597fc401cfe62d029395c8a6c215f29d992c5a056abc81586b79267a68f
+2026-11-20T00:06:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:44.000Z [RCLConsensus] CNF buildLCL 7b33f0b6771b2ad12bab4648034cf75fbc9163f8178847b2b3c4a37b93eff394
+2026-11-20T00:06:44.000Z [RCLConsensus] CNF Val 7b33f0b6771b2ad12bab4648034cf75fbc9163f8178847b2b3c4a37b93eff394
+2026-11-20T00:06:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:48.000Z [RCLConsensus] CNF buildLCL 7b363d413ececd06a9143eb01a3b21cd058394b0894df7090f2a044179368306
+2026-11-20T00:06:48.000Z [RCLConsensus] CNF Val 7b363d413ececd06a9143eb01a3b21cd058394b0894df7090f2a044179368306
+2026-11-20T00:06:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:52.000Z [RCLConsensus] CNF buildLCL 2c2f7250eac01a8e4419e0c3733d5d52ce9ed05eafa795efdc9c2165fb58828a
+2026-11-20T00:06:52.000Z [RCLConsensus] CNF Val 2c2f7250eac01a8e4419e0c3733d5d52ce9ed05eafa795efdc9c2165fb58828a
+2026-11-20T00:06:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:06:56.000Z [RCLConsensus] CNF buildLCL 1b48fe1fa229987976c2b7169d93a24a0b676ee73385ac928da56d2c0a2ef932
+2026-11-20T00:06:56.000Z [RCLConsensus] CNF Val 1b48fe1fa229987976c2b7169d93a24a0b676ee73385ac928da56d2c0a2ef932
+2026-11-20T00:06:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:00.000Z [RCLConsensus] CNF buildLCL 2782eef633cefc223b75014b2ed3fc7d98bdcd8cd0733ea1c473e98dfb0983ca
+2026-11-20T00:07:00.000Z [RCLConsensus] CNF Val 2782eef633cefc223b75014b2ed3fc7d98bdcd8cd0733ea1c473e98dfb0983ca
+2026-11-20T00:07:00.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:04.000Z [RCLConsensus] CNF buildLCL 0508a525f94db93e45a766b3b2d98fb99003c80f547b55eb35c328d04197627c
+2026-11-20T00:07:04.000Z [RCLConsensus] CNF Val 0508a525f94db93e45a766b3b2d98fb99003c80f547b55eb35c328d04197627c
+2026-11-20T00:07:04.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:08.000Z [RCLConsensus] CNF buildLCL 748df504b86fa95d99bf304d03a26a0e711fe5c6a65d4cd4000ae84e75134088
+2026-11-20T00:07:08.000Z [RCLConsensus] CNF Val 748df504b86fa95d99bf304d03a26a0e711fe5c6a65d4cd4000ae84e75134088
+2026-11-20T00:07:08.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:12.000Z [RCLConsensus] CNF buildLCL ba9a208dee4a12dccc3d214f3cc6229c903f9f3adcbd7398dc181ef1750a5d82
+2026-11-20T00:07:12.000Z [RCLConsensus] CNF Val ba9a208dee4a12dccc3d214f3cc6229c903f9f3adcbd7398dc181ef1750a5d82
+2026-11-20T00:07:12.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:16.000Z [RCLConsensus] CNF buildLCL ad29eefee69ad974bd9344959638d026a8f87f4bc6f6ba7337ff1e2f552cec81
+2026-11-20T00:07:16.000Z [RCLConsensus] CNF Val ad29eefee69ad974bd9344959638d026a8f87f4bc6f6ba7337ff1e2f552cec81
+2026-11-20T00:07:16.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:20.000Z [RCLConsensus] CNF buildLCL 9cd662575c7f04faf9b1d2173f42f6fd769be1c65ace9ee61047a80e9851c02f
+2026-11-20T00:07:20.000Z [RCLConsensus] CNF Val 9cd662575c7f04faf9b1d2173f42f6fd769be1c65ace9ee61047a80e9851c02f
+2026-11-20T00:07:20.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:24.000Z [RCLConsensus] CNF buildLCL 1e25d3627db29548ab120c2ccd27b66ddfcdb80560b7803b7e86132fd2a3ea07
+2026-11-20T00:07:24.000Z [RCLConsensus] CNF Val 1e25d3627db29548ab120c2ccd27b66ddfcdb80560b7803b7e86132fd2a3ea07
+2026-11-20T00:07:24.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:28.000Z [RCLConsensus] CNF buildLCL 2a7d45cee64868d9d37a1e04997f40ab76149480100218536e2985dc0b1a0380
+2026-11-20T00:07:28.000Z [RCLConsensus] CNF Val 2a7d45cee64868d9d37a1e04997f40ab76149480100218536e2985dc0b1a0380
+2026-11-20T00:07:28.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:32.000Z [RCLConsensus] CNF buildLCL e95c9602d52d4d4166d9aa03e4405060364aabf798e7f869550cf4871efa1575
+2026-11-20T00:07:32.000Z [RCLConsensus] CNF Val e95c9602d52d4d4166d9aa03e4405060364aabf798e7f869550cf4871efa1575
+2026-11-20T00:07:32.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:36.000Z [RCLConsensus] CNF buildLCL c8f42ef03f38475ed18480cdd739069b6364404fb1d4d03cb415f8aeebabf071
+2026-11-20T00:07:36.000Z [RCLConsensus] CNF Val c8f42ef03f38475ed18480cdd739069b6364404fb1d4d03cb415f8aeebabf071
+2026-11-20T00:07:36.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:40.000Z [RCLConsensus] CNF buildLCL 9a00f506dfad063ce12b336d23d931b26ac6b55a132f81ea3a571a3e2b49fed7
+2026-11-20T00:07:40.000Z [RCLConsensus] CNF Val 9a00f506dfad063ce12b336d23d931b26ac6b55a132f81ea3a571a3e2b49fed7
+2026-11-20T00:07:40.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:44.000Z [RCLConsensus] CNF buildLCL 14264a13e4ca6d0d496a0f28a8254a1d162ea357c3bea65b1bbca1791ea8812b
+2026-11-20T00:07:44.000Z [RCLConsensus] CNF Val 14264a13e4ca6d0d496a0f28a8254a1d162ea357c3bea65b1bbca1791ea8812b
+2026-11-20T00:07:44.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:48.000Z [RCLConsensus] CNF buildLCL 56ab3acc96a0714566ace3224850c34047348213b8121baeda5e2a97f54d844c
+2026-11-20T00:07:48.000Z [RCLConsensus] CNF Val 56ab3acc96a0714566ace3224850c34047348213b8121baeda5e2a97f54d844c
+2026-11-20T00:07:48.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:52.000Z [RCLConsensus] CNF buildLCL 5e68921101c84de467be8091351c2bbef6a4b22686872548324f726333bf8941
+2026-11-20T00:07:52.000Z [RCLConsensus] CNF Val 5e68921101c84de467be8091351c2bbef6a4b22686872548324f726333bf8941
+2026-11-20T00:07:52.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
+2026-11-20T00:07:56.000Z [RCLConsensus] CNF buildLCL 3c4acc371b5dc5a1f4e910c5bd0c1cc80aa4588004e0844207ade10889d91226
+2026-11-20T00:07:56.000Z [RCLConsensus] CNF Val 3c4acc371b5dc5a1f4e910c5bd0c1cc80aa4588004e0844207ade10889d91226
+2026-11-20T00:07:56.000Z [Validations] RCLValidations: Recording vote with signing key: n9SyntheticValidatorIdentity0000000000000000000 -> Account: rSyntheticValidatorAccount0000000000000
