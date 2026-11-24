@@ -1,0 +1,32 @@
+=== parse_validations: fixture clock-skew ===
+input log:    fixtures/clock-skew.log
+  sha256: 27f8c2bcc00133a4de386e716371f98d9ddac94dcc56b7a6730c946b4d185ce2
+input state:  fixtures/clock-skew-ledger-state.json
+  sha256: 600f09e8f267deb8b97b310425892bccd9778b7264fd9f73faf97fc9524f949f
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 120
+recording-vote lines: 120
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 120
+missed validations: 0
+missed with buildLCL evidence: 0
+missed sequences: none
+missed windows [start, end, count]: none
+uptime: 100.0000%
+ledger-state JSON agrees with log: True

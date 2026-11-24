@@ -1,0 +1,32 @@
+=== parse_validations: fixture resource-exhaustion ===
+input log:    fixtures/resource-exhaustion.log
+  sha256: 445e948002755201bbcf241ad8a94249d1a7bc5f532229a136b440c43e5782eb
+input state:  fixtures/resource-exhaustion-ledger-state.json
+  sha256: 40c4b7a97450f160260a877306cfd1878fe5afcf404c533faa1f82e7b174487e
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 90
+recording-vote lines: 90
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 1
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 90
+missed validations: 30
+missed with buildLCL evidence: 30
+missed sequences: [900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089]
+missed windows [start, end, count]: [[900060, 900089, 30]]
+uptime: 75.0000%
+ledger-state JSON agrees with log: True

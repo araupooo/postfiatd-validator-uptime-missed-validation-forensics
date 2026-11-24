@@ -1,0 +1,32 @@
+=== parse_validations: fixture config-error ===
+input log:    fixtures/config-error.log
+  sha256: ae00d8fb5c8a95d916c506dc92c5f7f542d59f47b9bf39dac2465c4b9380c9ee
+input state:  fixtures/config-error-ledger-state.json
+  sha256: 0a0a4e09c2d2aeb329ef4d73ae2ccb0e940bc70568b5a37d9c8b64f157d13773
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 0
+buildLCL lines: 120
+CNF Val lines: 0
+recording-vote lines: 0
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 120
+propose ValidatorKeys warnings: 120
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 0
+missed validations: 120
+missed with buildLCL evidence: 120
+missed sequences: [900000, 900001, 900002, 900003, 900004, 900005, 900006, 900007, 900008, 900009, 900010, 900011, 900012, 900013, 900014, 900015, 900016, 900017, 900018, 900019, 900020, 900021, 900022, 900023, 900024, 900025, 900026, 900027, 900028, 900029, 900030, 900031, 900032, 900033, 900034, 900035, 900036, 900037, 900038, 900039, 900040, 900041, 900042, 900043, 900044, 900045, 900046, 900047, 900048, 900049, 900050, 900051, 900052, 900053, 900054, 900055, 900056, 900057, 900058, 900059, 900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089, 900090, 900091, 900092, 900093, 900094, 900095, 900096, 900097, 900098, 900099, 900100, 900101, 900102, 900103, 900104, 900105, 900106, 900107, 900108, 900109, 900110, 900111, 900112, 900113, 900114, 900115, 900116, 900117, 900118, 900119]
+missed windows [start, end, count]: [[900000, 900119, 120]]
+uptime: 0.0000%
+ledger-state JSON agrees with log: True

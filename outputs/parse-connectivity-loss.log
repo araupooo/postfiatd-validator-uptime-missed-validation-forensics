@@ -1,0 +1,32 @@
+=== parse_validations: fixture connectivity-loss ===
+input log:    fixtures/connectivity-loss.log
+  sha256: 0f2deede0977d00e09eb4a63bbef062911d222568ae9ccf5ec743e9c4bb443c6
+input state:  fixtures/connectivity-loss-ledger-state.json
+  sha256: 66eec3201af3a21b94f1e04e610d13ea7a539da7ec09ab70617f7d92322c965a
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 95
+recording-vote lines: 95
+peer fail lines: 12
+peer closed lines: 12
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 1
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 95
+missed validations: 25
+missed with buildLCL evidence: 25
+missed sequences: [900050, 900051, 900052, 900053, 900054, 900055, 900056, 900057, 900058, 900059, 900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074]
+missed windows [start, end, count]: [[900050, 900074, 25]]
+uptime: 79.1667%
+ledger-state JSON agrees with log: True

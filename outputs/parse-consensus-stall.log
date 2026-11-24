@@ -1,0 +1,32 @@
+=== parse_validations: fixture consensus-stall ===
+input log:    fixtures/consensus-stall.log
+  sha256: e057f918d3c0580cb471b7c7332239ec6b236f1ae055103248af2ef4388b59b4
+input state:  fixtures/consensus-stall-ledger-state.json
+  sha256: 0f150eadff345419e10be18a2b8b4da75bcdeef407bc59c6da42c54edbb17c29
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 100
+recording-vote lines: 100
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 2
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 100
+missed validations: 20
+missed with buildLCL evidence: 20
+missed sequences: [900030, 900031, 900032, 900033, 900034, 900035, 900036, 900037, 900038, 900039, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079]
+missed windows [start, end, count]: [[900030, 900039, 10], [900070, 900079, 10]]
+uptime: 83.3333%
+ledger-state JSON agrees with log: True

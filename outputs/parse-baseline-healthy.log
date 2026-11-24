@@ -1,0 +1,32 @@
+=== parse_validations: fixture baseline-healthy ===
+input log:    fixtures/baseline-healthy.log
+  sha256: f17d06a30c4ff50c3874ea2e59e8abf51b7fa609ca243134745d53d173b948fc
+input state:  fixtures/baseline-healthy-ledger-state.json
+  sha256: 42920f4142255401a59ca55cd59ded9c0bfe92c62a53df284a1398d3cc8007c0
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 120
+recording-vote lines: 120
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 120
+missed validations: 0
+missed with buildLCL evidence: 0
+missed sequences: none
+missed windows [start, end, count]: none
+uptime: 100.0000%
+ledger-state JSON agrees with log: True
