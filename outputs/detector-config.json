@@ -1,0 +1,9 @@
+{
+  "validator_identity_lines": 0,
+  "validate_nokeys_warnings": 120,
+  "propose_nokeys_warnings": 120,
+  "validated_ledgers": 0,
+  "expected_ledgers": 120,
+  "verdict": "CONFIG_ERROR",
+  "reason": "No 'Validator identity' line at startup, ValidatorKeys warnings present, and 0 of 120 expected validations issued."
+}

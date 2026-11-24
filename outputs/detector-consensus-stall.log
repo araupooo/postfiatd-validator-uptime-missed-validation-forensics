@@ -1,0 +1,12 @@
+=== detector: consensus-stall ===
+fixture: consensus-stall (synthetic)
+rule: 'Consensus detects as stalled' error lines from the engine (see docs/methodology.md)
+--- evidence ---
+stall lines: 2
+  stall at 2026-11-20T00:02:00.000Z: 3/12 proposers, 2 stalled disputes
+  stall at 2026-11-20T00:04:40.000Z: 3/12 proposers, 2 stalled disputes
+abandon threshold: 120 s (ledgerABANDON_CONSENSUS)
+missed windows [start, end, count]: [(900030, 900039, 10), (900070, 900079, 10)]
+--- verdict (OBSERVED) ---
+verdict: CONSENSUS_STALL
+reason: 2 stall line(s) from the consensus engine; missed-validation windows during the stall: [(900030, 900039, 10), (900070, 900079, 10)].

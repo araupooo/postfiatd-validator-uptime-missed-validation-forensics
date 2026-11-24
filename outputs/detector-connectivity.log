@@ -1,0 +1,11 @@
+=== detector: connectivity-loss ===
+fixture: connectivity-loss (synthetic)
+rule: PeerImp disconnect/fail lines overlapping a missed-validation window (see docs/methodology.md)
+--- evidence ---
+peer fail lines: 12
+peer closed lines: 12
+missed windows [start, end, count]: [(900050, 900074, 25)]
+overlapping windows: [{'window': [900050, 900074, 25], 'peer_events_in_window': 24, 'first_peer_event': '2026-11-20T00:03:20.000Z'}]
+--- verdict (OBSERVED) ---
+verdict: CONNECTIVITY_LOSS
+reason: Peer disconnect/fail lines overlap a missed-validation window.

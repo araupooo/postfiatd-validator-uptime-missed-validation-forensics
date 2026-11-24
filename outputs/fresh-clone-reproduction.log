@@ -1,0 +1,16 @@
+=== fresh-clone reproduction ===
+Method: copied the pack directory to a fresh location (/tmp/fresh-clone-repro),
+ran `bash scripts/run_all.sh` there with no other change, then compared the
+fresh copy against the pack with `diff -r --exclude=run_all.log`.
+Result: exit 0 in the fresh copy; 35/35 digests verify (`bash
+scripts/verify_digests.sh`); `diff -r` identical; SHA256SUMS identical;
+run-manifest.json identical.
+Excluded from comparison: outputs/run_all.log (carries a wall-clock start
+line; excluded from SHA256SUMS by design).
+Note: the first reproduction attempt found two determinism defects, both
+fixed in the pack before this log was written: (1) outputs/parse-*.json
+embedded the absolute checkout path in "log_path" — now recorded relative
+to the pack root; (2) running the Python scripts created
+scripts/__pycache__/*.pyc with embedded timestamps — run_all.sh now sets
+PYTHONDONTWRITEBYTECODE=1 and the cache directory is not part of the pack.
+This log is the record of the successful second reproduction.

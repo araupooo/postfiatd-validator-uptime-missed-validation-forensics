@@ -1,0 +1,32 @@
+{
+  "stall_lines": 2,
+  "stall_events": [
+    {
+      "at": "2026-11-20T00:02:00.000Z",
+      "agree": 3,
+      "proposers": 12,
+      "stalled_disputes": 2
+    },
+    {
+      "at": "2026-11-20T00:04:40.000Z",
+      "agree": 3,
+      "proposers": 12,
+      "stalled_disputes": 2
+    }
+  ],
+  "missed_windows": [
+    [
+      900030,
+      900039,
+      10
+    ],
+    [
+      900070,
+      900079,
+      10
+    ]
+  ],
+  "abandon_threshold_s": 120,
+  "verdict": "CONSENSUS_STALL",
+  "reason": "2 stall line(s) from the consensus engine; missed-validation windows during the stall: [(900030, 900039, 10), (900070, 900079, 10)]."
+}

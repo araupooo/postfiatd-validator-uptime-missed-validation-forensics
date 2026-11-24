@@ -1,0 +1,363 @@
+=== postfiatd validator uptime / missed-validation forensics ===
+run started: 2026-11-24T17:20:24Z
+pinned postfiatd commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- 1. generate fixtures ---
+fixture baseline-healthy: 365 log lines, 120 ledgers
+  sha256 f17d06a30c4ff50c3874ea2e59e8abf51b7fa609ca243134745d53d173b948fc  fixtures/baseline-healthy.log
+  sha256 42920f4142255401a59ca55cd59ded9c0bfe92c62a53df284a1398d3cc8007c0  fixtures/baseline-healthy-ledger-state.json
+fixture connectivity-loss: 340 log lines, 120 ledgers
+  sha256 0f2deede0977d00e09eb4a63bbef062911d222568ae9ccf5ec743e9c4bb443c6  fixtures/connectivity-loss.log
+  sha256 66eec3201af3a21b94f1e04e610d13ea7a539da7ec09ab70617f7d92322c965a  fixtures/connectivity-loss-ledger-state.json
+fixture clock-skew: 365 log lines, 120 ledgers
+  sha256 27f8c2bcc00133a4de386e716371f98d9ddac94dcc56b7a6730c946b4d185ce2  fixtures/clock-skew.log
+  sha256 600f09e8f267deb8b97b310425892bccd9778b7264fd9f73faf97fc9524f949f  fixtures/clock-skew-ledger-state.json
+fixture resource-exhaustion: 306 log lines, 120 ledgers
+  sha256 445e948002755201bbcf241ad8a94249d1a7bc5f532229a136b440c43e5782eb  fixtures/resource-exhaustion.log
+  sha256 40c4b7a97450f160260a877306cfd1878fe5afcf404c533faa1f82e7b174487e  fixtures/resource-exhaustion-ledger-state.json
+fixture config-error: 364 log lines, 120 ledgers
+  sha256 ae00d8fb5c8a95d916c506dc92c5f7f542d59f47b9bf39dac2465c4b9380c9ee  fixtures/config-error.log
+  sha256 0a0a4e09c2d2aeb329ef4d73ae2ccb0e940bc70568b5a37d9c8b64f157d13773  fixtures/config-error-ledger-state.json
+fixture consensus-stall: 327 log lines, 120 ledgers
+  sha256 e057f918d3c0580cb471b7c7332239ec6b236f1ae055103248af2ef4388b59b4  fixtures/consensus-stall.log
+  sha256 0f150eadff345419e10be18a2b8b4da75bcdeef407bc59c6da42c54edbb17c29  fixtures/consensus-stall-ledger-state.json
+--- 2. parse fixtures ---
+=== parse_validations: fixture baseline-healthy ===
+input log:    fixtures/baseline-healthy.log
+  sha256: f17d06a30c4ff50c3874ea2e59e8abf51b7fa609ca243134745d53d173b948fc
+input state:  fixtures/baseline-healthy-ledger-state.json
+  sha256: 42920f4142255401a59ca55cd59ded9c0bfe92c62a53df284a1398d3cc8007c0
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 120
+recording-vote lines: 120
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 120
+missed validations: 0
+missed with buildLCL evidence: 0
+missed sequences: none
+missed windows [start, end, count]: none
+uptime: 100.0000%
+ledger-state JSON agrees with log: True
+parsed baseline-healthy
+=== parse_validations: fixture connectivity-loss ===
+input log:    fixtures/connectivity-loss.log
+  sha256: 0f2deede0977d00e09eb4a63bbef062911d222568ae9ccf5ec743e9c4bb443c6
+input state:  fixtures/connectivity-loss-ledger-state.json
+  sha256: 66eec3201af3a21b94f1e04e610d13ea7a539da7ec09ab70617f7d92322c965a
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 95
+recording-vote lines: 95
+peer fail lines: 12
+peer closed lines: 12
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 1
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 95
+missed validations: 25
+missed with buildLCL evidence: 25
+missed sequences: [900050, 900051, 900052, 900053, 900054, 900055, 900056, 900057, 900058, 900059, 900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074]
+missed windows [start, end, count]: [[900050, 900074, 25]]
+uptime: 79.1667%
+ledger-state JSON agrees with log: True
+parsed connectivity-loss
+=== parse_validations: fixture clock-skew ===
+input log:    fixtures/clock-skew.log
+  sha256: 27f8c2bcc00133a4de386e716371f98d9ddac94dcc56b7a6730c946b4d185ce2
+input state:  fixtures/clock-skew-ledger-state.json
+  sha256: 600f09e8f267deb8b97b310425892bccd9778b7264fd9f73faf97fc9524f949f
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 120
+recording-vote lines: 120
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 120
+missed validations: 0
+missed with buildLCL evidence: 0
+missed sequences: none
+missed windows [start, end, count]: none
+uptime: 100.0000%
+ledger-state JSON agrees with log: True
+parsed clock-skew
+=== parse_validations: fixture resource-exhaustion ===
+input log:    fixtures/resource-exhaustion.log
+  sha256: 445e948002755201bbcf241ad8a94249d1a7bc5f532229a136b440c43e5782eb
+input state:  fixtures/resource-exhaustion-ledger-state.json
+  sha256: 40c4b7a97450f160260a877306cfd1878fe5afcf404c533faa1f82e7b174487e
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 90
+recording-vote lines: 90
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 1
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 90
+missed validations: 30
+missed with buildLCL evidence: 30
+missed sequences: [900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089]
+missed windows [start, end, count]: [[900060, 900089, 30]]
+uptime: 75.0000%
+ledger-state JSON agrees with log: True
+parsed resource-exhaustion
+=== parse_validations: fixture config-error ===
+input log:    fixtures/config-error.log
+  sha256: ae00d8fb5c8a95d916c506dc92c5f7f542d59f47b9bf39dac2465c4b9380c9ee
+input state:  fixtures/config-error-ledger-state.json
+  sha256: 0a0a4e09c2d2aeb329ef4d73ae2ccb0e940bc70568b5a37d9c8b64f157d13773
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 0
+buildLCL lines: 120
+CNF Val lines: 0
+recording-vote lines: 0
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 0
+disk fatal lines: 0
+validate ValidatorKeys warnings: 120
+propose ValidatorKeys warnings: 120
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 0
+missed validations: 120
+missed with buildLCL evidence: 120
+missed sequences: [900000, 900001, 900002, 900003, 900004, 900005, 900006, 900007, 900008, 900009, 900010, 900011, 900012, 900013, 900014, 900015, 900016, 900017, 900018, 900019, 900020, 900021, 900022, 900023, 900024, 900025, 900026, 900027, 900028, 900029, 900030, 900031, 900032, 900033, 900034, 900035, 900036, 900037, 900038, 900039, 900040, 900041, 900042, 900043, 900044, 900045, 900046, 900047, 900048, 900049, 900050, 900051, 900052, 900053, 900054, 900055, 900056, 900057, 900058, 900059, 900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089, 900090, 900091, 900092, 900093, 900094, 900095, 900096, 900097, 900098, 900099, 900100, 900101, 900102, 900103, 900104, 900105, 900106, 900107, 900108, 900109, 900110, 900111, 900112, 900113, 900114, 900115, 900116, 900117, 900118, 900119]
+missed windows [start, end, count]: [[900000, 900119, 120]]
+uptime: 0.0000%
+ledger-state JSON agrees with log: True
+parsed config-error
+=== parse_validations: fixture consensus-stall ===
+input log:    fixtures/consensus-stall.log
+  sha256: e057f918d3c0580cb471b7c7332239ec6b236f1ae055103248af2ef4388b59b4
+input state:  fixtures/consensus-stall-ledger-state.json
+  sha256: 0f150eadff345419e10be18a2b8b4da75bcdeef407bc59c6da42c54edbb17c29
+synthetic fixture: True
+pinned commit: 0085a1ff885d6a446369cf73a4430f75af22be55
+--- event counts ---
+engine starts: 1
+validator identity lines: 1
+buildLCL lines: 120
+CNF Val lines: 100
+recording-vote lines: 100
+peer fail lines: 0
+peer closed lines: 0
+stall lines: 2
+disk fatal lines: 0
+validate ValidatorKeys warnings: 0
+propose ValidatorKeys warnings: 0
+ancestor-missing warnings: 0
+need-ledger warnings: 0
+unparsed lines: 0
+--- validation summary (OBSERVED: parser behaviour on this fixture) ---
+expected ledgers: 120 (seq 900000..900119)
+built ledgers (CNF buildLCL): 120
+validated ledgers (CNF Val): 100
+missed validations: 20
+missed with buildLCL evidence: 20
+missed sequences: [900030, 900031, 900032, 900033, 900034, 900035, 900036, 900037, 900038, 900039, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079]
+missed windows [start, end, count]: [[900030, 900039, 10], [900070, 900079, 10]]
+uptime: 83.3333%
+ledger-state JSON agrees with log: True
+parsed consensus-stall
+--- 3. run detectors ---
+=== detector: connectivity-loss ===
+fixture: connectivity-loss (synthetic)
+rule: PeerImp disconnect/fail lines overlapping a missed-validation window (see docs/methodology.md)
+--- evidence ---
+peer fail lines: 12
+peer closed lines: 12
+missed windows [start, end, count]: [(900050, 900074, 25)]
+overlapping windows: [{'window': [900050, 900074, 25], 'peer_events_in_window': 24, 'first_peer_event': '2026-11-20T00:03:20.000Z'}]
+--- verdict (OBSERVED) ---
+verdict: CONNECTIVITY_LOSS
+reason: Peer disconnect/fail lines overlap a missed-validation window.
+=== detector: clock-skew ===
+fixture: clock-skew (synthetic)
+rule: signTime outside [close - 180 s, close + 300 s] or non-monotonic signTime (see docs/methodology.md)
+--- evidence ---
+validations checked: 120
+flagged validations: 21
+  seq 900040 sign 2026-11-20T00:09:20.000Z close 2026-11-20T00:02:40.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900041 sign 2026-11-20T00:09:24.000Z close 2026-11-20T00:02:44.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900042 sign 2026-11-20T00:09:28.000Z close 2026-11-20T00:02:48.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900043 sign 2026-11-20T00:09:32.000Z close 2026-11-20T00:02:52.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900044 sign 2026-11-20T00:09:36.000Z close 2026-11-20T00:02:56.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900045 sign 2026-11-20T00:09:40.000Z close 2026-11-20T00:03:00.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900046 sign 2026-11-20T00:09:44.000Z close 2026-11-20T00:03:04.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900047 sign 2026-11-20T00:09:48.000Z close 2026-11-20T00:03:08.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900048 sign 2026-11-20T00:09:52.000Z close 2026-11-20T00:03:12.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900049 sign 2026-11-20T00:09:56.000Z close 2026-11-20T00:03:16.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900050 sign 2026-11-20T00:10:00.000Z close 2026-11-20T00:03:20.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900051 sign 2026-11-20T00:10:04.000Z close 2026-11-20T00:03:24.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900052 sign 2026-11-20T00:10:08.000Z close 2026-11-20T00:03:28.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900053 sign 2026-11-20T00:10:12.000Z close 2026-11-20T00:03:32.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900054 sign 2026-11-20T00:10:16.000Z close 2026-11-20T00:03:36.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900055 sign 2026-11-20T00:10:20.000Z close 2026-11-20T00:03:40.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900056 sign 2026-11-20T00:10:24.000Z close 2026-11-20T00:03:44.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900057 sign 2026-11-20T00:10:28.000Z close 2026-11-20T00:03:48.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900058 sign 2026-11-20T00:10:32.000Z close 2026-11-20T00:03:52.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900059 sign 2026-11-20T00:10:36.000Z close 2026-11-20T00:03:56.000Z offset +400 s
+    - signTime 400 s after close time (later than validationCURRENT_WALL=300 s)
+  seq 900060 sign 2026-11-20T00:04:00.000Z close 2026-11-20T00:04:00.000Z offset +0 s
+    - signTime not monotonic vs seq 900059 (signTime 2026-11-20T00:04:00.000Z <= previous 2026-11-20T00:10:36.000Z)
+--- verdict (OBSERVED) ---
+verdict: CLOCK_SKEW
+reason: 21 of 120 validations have signTime outside the pinned acceptance window (early >180 s or wall >300 s) or break signTime monotonicity.
+=== detector: resource-exhaustion ===
+fixture: resource-exhaustion (synthetic)
+rule: fatal low-disk line (Node.cpp:1309) followed by missed validations (see docs/methodology.md)
+--- evidence ---
+disk fatal lines: 1
+  fatal at 2026-11-20T00:04:00.000Z: 30 missed after it: [900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089]
+missed windows [start, end, count]: [(900060, 900089, 30)]
+--- verdict (OBSERVED) ---
+verdict: RESOURCE_EXHAUSTION
+reason: Fatal low-disk line present and 30 validation(s) missed after it.
+=== detector: config-error ===
+fixture: config-error (synthetic)
+rule: no Validator identity + ValidatorKeys warnings + zero validations (see docs/methodology.md)
+--- evidence ---
+validator identity lines: 0
+validate ValidatorKeys warnings: 120
+propose ValidatorKeys warnings: 120
+validated ledgers: 0 of 120 expected
+--- verdict (OBSERVED) ---
+verdict: CONFIG_ERROR
+reason: No 'Validator identity' line at startup, ValidatorKeys warnings present, and 0 of 120 expected validations issued.
+=== detector: consensus-stall ===
+fixture: consensus-stall (synthetic)
+rule: 'Consensus detects as stalled' error lines from the engine (see docs/methodology.md)
+--- evidence ---
+stall lines: 2
+  stall at 2026-11-20T00:02:00.000Z: 3/12 proposers, 2 stalled disputes
+  stall at 2026-11-20T00:04:40.000Z: 3/12 proposers, 2 stalled disputes
+abandon threshold: 120 s (ledgerABANDON_CONSENSUS)
+missed windows [start, end, count]: [(900030, 900039, 10), (900070, 900079, 10)]
+--- verdict (OBSERVED) ---
+verdict: CONSENSUS_STALL
+reason: 2 stall line(s) from the consensus engine; missed-validation windows during the stall: [(900030, 900039, 10), (900070, 900079, 10)].
+--- 4. simulate fault scenarios + matrix ---
+scenario baseline: expected=600 issued=600 accepted=600 missed=0 uptime=100.00% downtime=0s recovery=n/a detectors=none
+scenario network-partition: expected=600 issued=525 accepted=525 missed=75 uptime=87.50% downtime=300s recovery=8s detectors={'connectivity': 'CONNECTIVITY_LOSS'}
+scenario process-restart: expected=600 issued=555 accepted=555 missed=45 uptime=92.50% downtime=180s recovery=12s detectors=none
+scenario clock-jump: expected=600 issued=600 accepted=540 missed=60 uptime=90.00% downtime=240s recovery=4s detectors={'clock-skew': 'CLOCK_SKEW'}
+scenario disk-pressure: expected=600 issued=540 accepted=540 missed=60 uptime=90.00% downtime=240s recovery=16s detectors={'resource': 'RESOURCE_EXHAUSTION'}
+--- 5. write manifest ---
+run-manifest.json written: 13 fixtures, 35 outputs
+--- 6. digests ---
+SHA256SUMS written: 35 entries
+outputs/detector-clock-skew.json: OK
+outputs/detector-clock-skew.log: OK
+outputs/detector-config.json: OK
+outputs/detector-config.log: OK
+outputs/detector-connectivity.json: OK
+outputs/detector-connectivity.log: OK
+outputs/detector-consensus-stall.json: OK
+outputs/detector-consensus-stall.log: OK
+outputs/detector-resource.json: OK
+outputs/detector-resource.log: OK
+outputs/matrix.csv: OK
+outputs/matrix.md: OK
+outputs/parse-baseline-healthy.json: OK
+outputs/parse-baseline-healthy.log: OK
+outputs/parse-clock-skew.json: OK
+outputs/parse-clock-skew.log: OK
+outputs/parse-config-error.json: OK
+outputs/parse-config-error.log: OK
+outputs/parse-connectivity-loss.json: OK
+outputs/parse-connectivity-loss.log: OK
+outputs/parse-consensus-stall.json: OK
+outputs/parse-consensus-stall.log: OK
+outputs/parse-resource-exhaustion.json: OK
+outputs/parse-resource-exhaustion.log: OK
+outputs/scenario-baseline-ledger-state.json: OK
+outputs/scenario-baseline.log: OK
+outputs/scenario-clock-jump-ledger-state.json: OK
+outputs/scenario-clock-jump.log: OK
+outputs/scenario-disk-pressure-ledger-state.json: OK
+outputs/scenario-disk-pressure.log: OK
+outputs/scenario-network-partition-ledger-state.json: OK
+outputs/scenario-network-partition.log: OK
+outputs/scenario-process-restart-ledger-state.json: OK
+outputs/scenario-process-restart.log: OK
+outputs/scenario-summary.json: OK
+=== run_all finished: exit 0 ===

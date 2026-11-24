@@ -1,0 +1,11 @@
+=== detector: config-error ===
+fixture: config-error (synthetic)
+rule: no Validator identity + ValidatorKeys warnings + zero validations (see docs/methodology.md)
+--- evidence ---
+validator identity lines: 0
+validate ValidatorKeys warnings: 120
+propose ValidatorKeys warnings: 120
+validated ledgers: 0 of 120 expected
+--- verdict (OBSERVED) ---
+verdict: CONFIG_ERROR
+reason: No 'Validator identity' line at startup, ValidatorKeys warnings present, and 0 of 120 expected validations issued.

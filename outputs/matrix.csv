@@ -1,0 +1,6 @@
+scenario,expected,issued_locally,accepted_by_network,missed,missed_pct,uptime_pct,downtime_s,recovery_s,detectors_fired,primary_cause
+baseline,600,600,600,0,0.00,100.00,0,,none,"none — healthy control"
+network-partition,600,525,525,75,12.50,87.50,300,8,connectivity=CONNECTIVITY_LOSS,"all 12 peers disconnect at once; no proposals reach the node, so no ledger closes locally and no validation is issued for 75 slots"
+process-restart,600,555,555,45,7.50,92.50,180,12,none,"process down for 180 s (45 slots); engine restarts and re-validates 3 slots after the restart line"
+clock-jump,600,600,540,60,10.00,90.00,240,4,clock-skew=CLOCK_SKEW,"local clock jumps +400 s for 240 s (60 slots); validations are issued locally but their signTime is outside the pinned acceptance window, so the network rejects them"
+disk-pressure,600,540,540,60,10.00,90.00,240,16,resource=RESOURCE_EXHAUSTION,"fatal low-disk line at slot 300; the node keeps validating for a 60 s grace period, then halts for 240 s (60 slots) until disk space is freed"

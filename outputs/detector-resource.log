@@ -1,0 +1,10 @@
+=== detector: resource-exhaustion ===
+fixture: resource-exhaustion (synthetic)
+rule: fatal low-disk line (Node.cpp:1309) followed by missed validations (see docs/methodology.md)
+--- evidence ---
+disk fatal lines: 1
+  fatal at 2026-11-20T00:04:00.000Z: 30 missed after it: [900060, 900061, 900062, 900063, 900064, 900065, 900066, 900067, 900068, 900069, 900070, 900071, 900072, 900073, 900074, 900075, 900076, 900077, 900078, 900079, 900080, 900081, 900082, 900083, 900084, 900085, 900086, 900087, 900088, 900089]
+missed windows [start, end, count]: [(900060, 900089, 30)]
+--- verdict (OBSERVED) ---
+verdict: RESOURCE_EXHAUSTION
+reason: Fatal low-disk line present and 30 validation(s) missed after it.

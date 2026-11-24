@@ -1,0 +1,24 @@
+{
+  "peer_fail_lines": 12,
+  "peer_closed_lines": 12,
+  "missed_windows": [
+    [
+      900050,
+      900074,
+      25
+    ]
+  ],
+  "overlapping_windows": [
+    {
+      "window": [
+        900050,
+        900074,
+        25
+      ],
+      "peer_events_in_window": 24,
+      "first_peer_event": "2026-11-20T00:03:20.000Z"
+    }
+  ],
+  "verdict": "CONNECTIVITY_LOSS",
+  "reason": "Peer disconnect/fail lines overlap a missed-validation window."
+}

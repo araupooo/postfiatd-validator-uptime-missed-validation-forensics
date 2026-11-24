@@ -1,0 +1,80 @@
+{
+  "scenarios": {
+    "baseline": {
+      "scenario": "baseline",
+      "expected": 600,
+      "issued_locally": 600,
+      "accepted_by_network": 600,
+      "missed": 0,
+      "missed_pct": 0.0,
+      "uptime_pct": 100.0,
+      "downtime_s": 0,
+      "recovery_s": null,
+      "detectors_fired": {},
+      "primary_cause": "none \u2014 healthy control",
+      "scenario_log_sha256": "f380944f3e5bbf32fc6c8426d51b786ed518fe1dfe957e5a742951c408e2c3dc"
+    },
+    "network-partition": {
+      "scenario": "network-partition",
+      "expected": 600,
+      "issued_locally": 525,
+      "accepted_by_network": 525,
+      "missed": 75,
+      "missed_pct": 12.5,
+      "uptime_pct": 87.5,
+      "downtime_s": 300,
+      "recovery_s": 8,
+      "detectors_fired": {
+        "connectivity": "CONNECTIVITY_LOSS"
+      },
+      "primary_cause": "all 12 peers disconnect at once; no proposals reach the node, so no ledger closes locally and no validation is issued for 75 slots",
+      "scenario_log_sha256": "e2c7c071c0a13b4e7cbbab5e85e3f042269f1dc0b0292f1d4c41987c3576d6cb"
+    },
+    "process-restart": {
+      "scenario": "process-restart",
+      "expected": 600,
+      "issued_locally": 555,
+      "accepted_by_network": 555,
+      "missed": 45,
+      "missed_pct": 7.5,
+      "uptime_pct": 92.5,
+      "downtime_s": 180,
+      "recovery_s": 12,
+      "detectors_fired": {},
+      "primary_cause": "process down for 180 s (45 slots); engine restarts and re-validates 3 slots after the restart line",
+      "scenario_log_sha256": "0e967859f7db3298f10934465c434d7ad560d471259be0792410f14ed69d6f93"
+    },
+    "clock-jump": {
+      "scenario": "clock-jump",
+      "expected": 600,
+      "issued_locally": 600,
+      "accepted_by_network": 540,
+      "missed": 60,
+      "missed_pct": 10.0,
+      "uptime_pct": 90.0,
+      "downtime_s": 240,
+      "recovery_s": 4,
+      "detectors_fired": {
+        "clock-skew": "CLOCK_SKEW"
+      },
+      "primary_cause": "local clock jumps +400 s for 240 s (60 slots); validations are issued locally but their signTime is outside the pinned acceptance window, so the network rejects them",
+      "scenario_log_sha256": "bbff3d1d81a4cebcddbe21f2fb935e56276c352769e780ca44d56e955b85abdd"
+    },
+    "disk-pressure": {
+      "scenario": "disk-pressure",
+      "expected": 600,
+      "issued_locally": 540,
+      "accepted_by_network": 540,
+      "missed": 60,
+      "missed_pct": 10.0,
+      "uptime_pct": 90.0,
+      "downtime_s": 240,
+      "recovery_s": 16,
+      "detectors_fired": {
+        "resource": "RESOURCE_EXHAUSTION"
+      },
+      "primary_cause": "fatal low-disk line at slot 300; the node keeps validating for a 60 s grace period, then halts for 240 s (60 slots) until disk space is freed",
+      "scenario_log_sha256": "3bbc8196022958718696f0cae26f3de11dcd0cf995d4faa781d74d86ba585843"
+    }
+  }
+}
